@@ -1,0 +1,1 @@
+# auto-exercise-image
