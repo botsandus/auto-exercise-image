@@ -34,6 +34,9 @@ RUN apt-get install -y \
         ros-${ROS_DISTRO}-ros-core \
         ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
         ros-${ROS_DISTRO}-turtlebot3* \
+        ros-${ROS_DISTRO}-can-msgs \
+        ros-${ROS_DISTRO}-rosbag2 \
+        ros-${ROS_DISTRO}-rosbag2-storage-mcap \
         ros-${ROS_DISTRO}-navigation2 \
         ros-dev-tools && \
     rm -rf /var/lib/apt/lists/*
